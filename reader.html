@@ -38,21 +38,26 @@
 			  height: 50px;
 			}
 		</style>
+		<script>
+			function turnOnReader(){
+				var x = document.getElementById("filename").value + "#toolbar=0";
+				document.getElementById("file").src=x;
+			}
+		</script>
 	</head>
 	<body>
 		<header>
 			 <a href="https://manikarea.home.blog/" target="_blank" style="text-decoration:none; color:white;">Area Of Manik Hosen</a>
 		</header>
 		<article>
-			<h2 style = "text-align:center;">System Analysis & Design</h2>
-			<a href="https://manikareahome.files.wordpress.com/2019/07/system-analysis-and-design.pdf" target="_blank">
-				<button>Request Download</button>
-			</a>
-			<embed src="SystemAnalysisAndDesign.pdf#toolbar=0" style="border:5px solid aqua;" width="100%" height="600" type="application/pdf">
+			<h2 style = "text-align:center;">Online File Reader</h2>
+			<input id="filename" type="text" style="width:50%; height:50px"></input>
+			<button onclick="turnOnReader()">Open</button>
+			<embed id="file" style="border:5px solid aqua;" width="100%" height="600" type="application/pdf">
 		</article>
 		<footer>
 		<hr/>
-		<p>&copy Manik Hosen Github 2017-2019</p>
+		<p>&copy Manik Hosen Github 2017-2020</p>
 	</footer>
 	</body>
 </html>
