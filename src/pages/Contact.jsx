@@ -26,7 +26,7 @@ const Contact = () => {
 				payload,
 				'8LIOno-C2q9CzUSdo'
 			);
-			toast.success('Subscribed Successfully', toastValues);
+			toast.success('Request Submitted Successfully', toastValues);
 		} catch (error) {
 			toast.error(error.message, toastValues);
 		}
