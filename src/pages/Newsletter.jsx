@@ -10,21 +10,18 @@ const Newsletter = () => {
 	const [email, setEmail] = useState('');
 
 	const onSubmit = () => {
-		emailjs
-			.send(
+		const payload = { email: email };
+		try {
+			emailjs.send(
 				'service_9ee42r9',
 				'template_tu94acd',
-				{ email: email },
+				payload,
 				'8LIOno-C2q9CzUSdo'
-			)
-			.then(
-				function (response) {
-					toast.success('Subscribed Successfully', toastValues);
-				},
-				function (err) {
-					toast.error(err.status + ' Unknown Error', toastValues);
-				}
 			);
+			toast.success('Subscribed Successfully', toastValues);
+		} catch (error) {
+			toast.error(error.message, toastValues);
+		}
 	};
 
 	return (
