@@ -1,59 +1,45 @@
 import { Col, Progress, Row } from 'reactstrap';
 
 const Skill = () => {
-	return (
-		<section className='py-5 border-bottom wow' data-wow-delay='0.1s'>
-			<h2 className='title pb-3 mb-5 text-start'>Skills</h2>
-			<Row>
-				<Col sm='6'>
-					<div className='skill mb-4'>
-						<div className='d-flex justify-content-between'>
-							<p className='mb-2'>Javascript</p>
-							<p className='mb-2'>98%</p>
-						</div>
-						<Progress color='primary' value={98} className='progress' />
-					</div>
-					<div className='skill mb-4'>
-						<div className='d-flex justify-content-between'>
-							<p className='mb-2'>Typescript</p>
-							<p className='mb-2'>95%</p>
-						</div>
-						<Progress color='primary' value={95} className='progress' />
-					</div>
-					<div className='skill mb-4'>
-						<div className='d-flex justify-content-between'>
-							<p className='mb-2'>React</p>
-							<p className='mb-2'>90%</p>
-						</div>
-						<Progress color='primary' value={90} className='progress' />
-					</div>
-				</Col>
-				<Col sm='6'>
-					<div className='skill mb-4'>
-						<div className='d-flex justify-content-between'>
-							<p className='mb-2'>Node JS</p>
-							<p className='mb-2'>70%</p>
-						</div>
-						<Progress color='primary' value={70} className='progress' />
-					</div>
-					<div className='skill mb-4'>
-						<div className='d-flex justify-content-between'>
-							<p className='mb-2'>Express JS</p>
-							<p className='mb-2'>60%</p>
-						</div>
-						<Progress color='primary' value={60} className='progress' />
-					</div>
-					<div className='skill mb-4'>
-						<div className='d-flex justify-content-between'>
-							<p className='mb-2'>Wordpress</p>
-							<p className='mb-2'>80%</p>
-						</div>
-						<Progress color='primary' value={80} className='progress' />
-					</div>
-				</Col>
-			</Row>
-		</section>
-	);
+  return (
+    <section className="py-5 border-bottom wow" data-wow-delay="0.1s">
+      <h2 className="title pb-3 mb-5 text-start">Skills</h2>
+      <Row>
+        {skills?.map((skill) => (
+          <Col sm="6">
+            <div className="skill mb-4">
+              <div className="d-flex justify-content-between">
+                <p className="mb-2">{skill?.label}</p>
+                <p className="mb-2">{skill?.expertise}%</p>
+              </div>
+              <Progress
+                color="primary"
+                value={skill?.expertise}
+                className="progress"
+              />
+            </div>
+          </Col>
+        ))}
+      </Row>
+    </section>
+  );
 };
 
 export default Skill;
+
+const skills = [
+  { label: "JavaScript", expertise: 95 },
+  { label: "Typescript", expertise: 90 },
+  { label: "React", expertise: 95 },
+  { label: "Node JS", expertise: 70 },
+  { label: "Nest JS", expertise: 70 },
+  { label: "Express JS", expertise: 60 },
+  { label: "Axios", expertise: 90 },
+  { label: "Git", expertise: 80 },
+  { label: "MOngoDB", expertise: 75 },
+  { label: "PostgreSQL", expertise: 65 },
+  { label: "REST API", expertise: 80 },
+  { label: "GraphQL", expertise: 60 },
+  { label: "Bootstrap", expertise: 98 },
+  { label: "TailwindCSS", expertise: 80 },
+];

@@ -2,10 +2,10 @@ import React from "react";
 import About from "../About";
 import Skill from "../Skill";
 import Experience from "../Experience";
-import Newsletter from "../Newsletter";
-import Service from "../Service";
+// import Newsletter from "../Newsletter";
+// import Service from "../Service";
 import Portfolio from "../Portfolio";
-import Testimonial from "../Testimonial";
+// import Testimonial from "../Testimonial";
 import Contact from "../Contact";
 import Footer from "../Footer";
 
@@ -22,16 +22,16 @@ const Resume = () => {
       <Experience />
 
       {/* <!-- Subscribe --> */}
-      <Newsletter />
+      {/* <Newsletter /> */}
 
       {/* <!-- Service --> */}
-      <Service />
+      {/* <Service /> */}
 
       {/* <!-- Portfolio --> */}
       <Portfolio />
 
       {/* <!-- Testimonial --> */}
-      <Testimonial />
+      {/* <Testimonial /> */}
 
       {/* <!-- Contact --> */}
       <Contact />
