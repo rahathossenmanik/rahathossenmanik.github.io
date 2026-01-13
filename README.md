@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# Portfolio | Manik Hosen
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the repository for my personal portfolio, built with a focus on minimalism, high performance, and web accessibility. It serves as a living document of my journey from the **University of Rajshahi** to architecting enterprise healthcare systems at **Therap (BD) Ltd.**
 
-## Available Scripts
+**Live Demo:** [yourportfolio.com](https://yourportfolio.com)
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## 🚀 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/) (Strict Mode)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment:** [Vercel](https://vercel.com/)
+- **Content:** Markdown / MDX
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `yarn test`
+## 🛠️ Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Web Accessibility (A11y)
 
-### `yarn build`
+As a specialist in accessibility, this portfolio is built to exceed **WCAG 2.1 Level AA** standards.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Manual Audits:** Tested using **NVDA** and **JAWS** screen readers.
+- **Keyboard Navigation:** Fully accessible focus management and skip-links.
+- **Semantic HTML:** Strict adherence to ARIA patterns for inclusive UX.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. High Performance
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Zero Layout Shift:** Optimized for Core Web Vitals.
+- **Static Site Generation (SSG):** For near-instant load times.
+- **Image Optimization:** Utilizing Next/Image for modern formats and lazy loading.
 
-### `yarn eject`
+### 3. Clean Architecture
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Component-Driven:** Reusable UI patterns modeled after my work on enterprise design systems.
+- **Type Safety:** 100% TypeScript coverage to ensure maintainability and stability.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📁 Repository Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```text
+├── components/     # Atomic UI components and Layouts
+├── content/        # Markdown files for Work History and Projects
+├── public/         # Static assets and AWS Certification badges
+├── app/            # Next.js App Router (pages and routing)
+└── styles/         # Global Tailwind and Typography configurations
+```
 
-## Learn More
+## 📖 Content Sections
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Work Journey:** A narrative timeline of my progression from Intern to Software Engineer, covering my roles at **Therap (BD) Ltd.** and **Bizzntek Ltd.**
+- **Projects:** Technical deep-dives into **TrainMate** (Real-time Train/Metro App), **LoadMiles** (Logistics ERP), and my open-source **NPM packages**.
+- **Education & Certifications:** My academic background from the **University of Rajshahi** alongside my **10+ AWS badges** and **WCAG/HIPAA** training.
+- **Writing:** A section dedicated to technical articles where I simplify complex standards like accessibility and cloud-native architecture.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ⌨️ Local Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To run this project locally and explore the codebase:
 
-### Analyzing the Bundle Size
+1. **Clone the repository:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   git clone [https://github.com/yourusername/portfolio.git](https://github.com/yourusername/portfolio.git)
 
-### Making a Progressive Web App
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. **Install dependencies:**
 
-### Advanced Configuration
+   ```bash
+   npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```
 
-### Deployment
+3. **Start the development server:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```bash
+   npm run dev
 
-### `yarn build` fails to minify
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤝 Contact & Connect
+
+I am a Software Engineer and Technical Writer. If you are interested in discussing React architecture, accessibility, or AWS infrastructure, feel free to reach out.
+
+- LinkedIn: [https://www.linkedin.com/in/rahathossenmanik](https://www.linkedin.com/in/rahathossenmanik/)
+
+- Email: [rahathossenmanik@gmail.com](mailto:rahathossenmanik@gmail.com)
+
+- NPM: [[https://www.npmjs.com/~rahathossenmanik](https://www.npmjs.com/~rahathossenmanik)]
+
+Built with ❤️ by Manik Hosen. Focused on performance and inclusive design.
