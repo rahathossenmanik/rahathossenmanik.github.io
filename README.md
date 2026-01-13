@@ -2,7 +2,7 @@
 
 This is the repository for my personal portfolio, built with a focus on minimalism, high performance, and web accessibility. It serves as a living document of my journey from the **University of Rajshahi** to architecting enterprise healthcare systems at **Therap (BD) Ltd.**
 
-**Live Demo:** [yourportfolio.com](https://yourportfolio.com)
+**Live Demo:** [manikhosen.com](https://manikhosen.com)
 
 ---
 
@@ -57,31 +57,6 @@ As a specialist in accessibility, this portfolio is built to exceed **WCAG 2.1 L
 - **Writing:** A section dedicated to technical articles where I simplify complex standards like accessibility and cloud-native architecture.
 
 ---
-
-## ⌨️ Local Development
-
-To run this project locally and explore the codebase:
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone [https://github.com/yourusername/portfolio.git](https://github.com/yourusername/portfolio.git)
-
-   ```
-
-2. **Install dependencies:**
-
-   ```bash
-   npm install
-
-   ```
-
-3. **Start the development server:**
-
-   ```bash
-   npm run dev
-
-   ```
 
 ## 🤝 Contact & Connect
 
